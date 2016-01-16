@@ -1,0 +1,12 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1451988019;s:6:"expire";i:9999999999;s:4:"tags";s:67:"0f6_BLOG_POST_RELATEDPRODUCTS,0f6_LAYOUT_GENERAL_CACHE_TAG,0f6_MAGE";}
+<container name="root" label="Root">
+   <block class="Magefan\Blog\Block\Adminhtml\Post\Edit\Tab\RelatedProducts" name="blog.post.edit.tab.relatedproducts"/>
+   <block class="Magento\Backend\Block\Widget\Grid\Serializer" name="relatedproducts_grid_serializer">
+      <arguments>
+         <argument name="grid_block" xsi:type="string">blog.post.edit.tab.relatedproducts</argument>
+         <argument name="callback" xsi:type="string">getSelectedRelatedProducts</argument>
+         <argument name="input_element_name" xsi:type="string">links[relatedproducts]</argument>
+         <argument name="reload_param_name" xsi:type="string">products_related</argument>
+      </arguments>
+   </block>
+</container>

@@ -1,0 +1,1 @@
+/var/www/html/Magento-CE-2/vendor/magento/module-admin-notification/view/adminhtml/web/system/notification.js

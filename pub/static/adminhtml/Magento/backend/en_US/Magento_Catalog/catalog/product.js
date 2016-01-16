@@ -1,0 +1,1 @@
+/var/www/html/Magento-CE-2/vendor/magento/module-catalog/view/adminhtml/web/catalog/product.js

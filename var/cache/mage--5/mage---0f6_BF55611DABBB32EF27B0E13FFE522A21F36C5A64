@@ -1,0 +1,15 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1451987720;s:6:"expire";i:1452074120;s:4:"tags";s:23:"0f6_BLOCK_HTML,0f6_MAGE";}
+
+<div class="widget block block-recent-posts" data-bind="scope: 'recemt-posts'">
+    <div class="block-title">
+        <strong>Recent Posts</strong>
+    </div>
+    <div class="block-content">
+    	            <div class="item">
+                <a class="post-item-link"
+                   href="http://localhost/Magento-CE-2/blog/post/hello-world/">
+                    Hello world!                </a>
+            </div>
+
+            </div>
+</div>
